@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Butterfly</title>
+        <item>
+            <title>1.10.0</title>
+            <pubDate>Mon, 02 Nov 2026 09:18:30 +0100</pubDate>
+            <sparkle:version>461</sparkle:version>
+            <sparkle:shortVersionString>1.10.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Butterfly 1.10.0
+
+- **Automatic updates.** Butterfly now checks for new versions once a day and asks before installing. You can also check any time from the menu: *Check for Updates…*
+- Updates are signed and notarized by Apple, and verified before they install.
+]]></description>
+            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.10.0/Butterfly-1.10.0.zip" length="3888603" type="application/octet-stream" sparkle:edSignature="VJ23SvYJt5FxGHI9HoDdbFAQjn9uAHt3NhH9bD8A5DImHw0T4JksitO+KAgNrheHCup11lrlBSXMpDtD+4WDCw=="/>
+        </item>
+    </channel>
+</rss>
