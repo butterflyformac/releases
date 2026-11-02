@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Butterfly</title>
+        <item>
+            <title>1.10.2</title>
+            <pubDate>Mon, 02 Nov 2026 12:30:41 +0100</pubDate>
+            <sparkle:version>465</sparkle:version>
+            <sparkle:shortVersionString>1.10.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- Report a problem now addresses the email to hello@butterflyformac.com.
+- Activating a license no longer sends your computer's name.
+- Clearer wording about what Butterfly checks online.
+- Diagnostic links no longer work in release builds.
+]]></description>
+            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.10.2/Butterfly-1.10.2.zip" length="3887075" type="application/octet-stream" sparkle:edSignature="UZJVTMOPhxxyKcA43xICKjssihWKv4fGzkV+Wfxb6nXQT432skwW11eAwGk4ESi7P9J74kIcJZvBZGNjQYnNDw=="/>
+        </item>
+    </channel>
+</rss>
