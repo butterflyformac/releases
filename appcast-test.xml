@@ -3,6 +3,16 @@
     <channel>
         <title>Butterfly</title>
         <item>
+            <title>1.10.1</title>
+            <pubDate>Mon, 02 Nov 2026 10:40:20 +0100</pubDate>
+            <sparkle:version>463</sparkle:version>
+            <sparkle:shortVersionString>1.10.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Test build to check the update flow. No changes for users.
+]]></description>
+            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.10.1/Butterfly-1.10.1.zip" length="3888613" type="application/octet-stream" sparkle:edSignature="X1sA0zfDvBifJ0uQd+lBll5ZQDp/10PGIgGjadcVRN5oATZ8a3Iy/Ah2YhVnmQjejIGk1gFSiO5zF3KlIV0fDA=="/>
+        </item>
+        <item>
             <title>1.10.0</title>
             <pubDate>Mon, 02 Nov 2026 09:18:30 +0100</pubDate>
             <sparkle:version>461</sparkle:version>
