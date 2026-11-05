@@ -3,6 +3,17 @@
     <channel>
         <title>Butterfly</title>
         <item>
+            <title>1.10.4</title>
+            <pubDate>Thu, 05 Nov 2026 19:23:45 +0100</pubDate>
+            <sparkle:version>474</sparkle:version>
+            <sparkle:shortVersionString>1.10.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- Going full screen, for example with a video, no longer moves your windows on the strip or makes them slide back when you return.
+- Apps that show a small loading window at launch, like Slack, now take their normal place on the strip.
+]]></description>
+            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.10.4/Butterfly-1.10.4.zip" length="3924055" type="application/octet-stream" sparkle:edSignature="aKnPsT9gSiqrFqxaoBnwLJM1LN47I3kuPMu6HaOxV8hsgSsb061b2cDWC/L2xrras013BiRIGm5SobVjxi3PBg=="/>
+        </item>
+        <item>
             <title>1.10.2</title>
             <pubDate>Mon, 02 Nov 2026 12:30:41 +0100</pubDate>
             <sparkle:version>465</sparkle:version>
