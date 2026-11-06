@@ -3,6 +3,20 @@
     <channel>
         <title>Butterfly</title>
         <item>
+            <title>1.10.6</title>
+            <pubDate>Fri, 06 Nov 2026 14:03:21 +0100</pubDate>
+            <sparkle:version>480</sparkle:version>
+            <sparkle:shortVersionString>1.10.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- Apps with a minimum width, like Music and TV, no longer slide over their neighbors on smaller screens.
+- The tour now teaches Overview and showing the desktop, and only takes your gestures while its window is in front.
+- When macOS uses the same trackpad gestures, Butterfly tells you exactly which switches to turn off.
+- License checks recover as soon as your Mac is back online, with clearer messages about moving a license to another Mac.
+- Updating from the old Chain app no longer asks for an administrator password.
+]]></description>
+            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.10.6/Butterfly-1.10.6.zip" length="3934511" type="application/octet-stream" sparkle:edSignature="p9ViiH5dayK+Ya3q8CUmhdtNEKxDurzstQytfi9msfF0NeqkfZjC1h8rhohWusVhwpBxigos1xwMzSceqn9UBQ=="/>
+        </item>
+        <item>
             <title>1.10.4</title>
             <pubDate>Thu, 05 Nov 2026 19:23:45 +0100</pubDate>
             <sparkle:version>474</sparkle:version>
