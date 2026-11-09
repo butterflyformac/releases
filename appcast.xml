@@ -3,6 +3,19 @@
     <channel>
         <title>Butterfly</title>
         <item>
+            <title>1.11.1</title>
+            <pubDate>Sun, 08 Nov 2026 15:29:25 +0100</pubDate>
+            <sparkle:version>484</sparkle:version>
+            <sparkle:shortVersionString>1.11.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- Press the mouse wheel and move up to open Overview, or down to show the desktop.
+- Moving all windows of a workspace in Overview now takes you to that workspace.
+- Flapping icons in Overview and on the desktop no longer show a frame.
+- Butterfly now comes as a disk image: open it and drag Butterfly to Applications.
+]]></description>
+            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.11.1/Butterfly-1.11.1.zip" length="3963728" type="application/octet-stream" sparkle:edSignature="n6OtZiQMovXHipSed0KmjnrDLVrFJ1xp1V3Jwhsg1pt5ovPQDrxAjJC1fp99LzawuVDR5WXhcXEV3RG5/MUeBQ=="/>
+        </item>
+        <item>
             <title>1.10.6</title>
             <pubDate>Fri, 06 Nov 2026 14:03:21 +0100</pubDate>
             <sparkle:version>480</sparkle:version>
@@ -26,19 +39,6 @@
 - Apps that show a small loading window at launch, like Slack, now take their normal place on the strip.
 ]]></description>
             <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.10.4/Butterfly-1.10.4.zip" length="3924055" type="application/octet-stream" sparkle:edSignature="aKnPsT9gSiqrFqxaoBnwLJM1LN47I3kuPMu6HaOxV8hsgSsb061b2cDWC/L2xrras013BiRIGm5SobVjxi3PBg=="/>
-        </item>
-        <item>
-            <title>1.10.2</title>
-            <pubDate>Mon, 02 Nov 2026 12:30:41 +0100</pubDate>
-            <sparkle:version>465</sparkle:version>
-            <sparkle:shortVersionString>1.10.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- Report a problem now addresses the email to hello@butterflyformac.com.
-- Activating a license no longer sends your computer's name.
-- Clearer wording about what Butterfly checks online.
-- Diagnostic links no longer work in release builds.
-]]></description>
-            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.10.2/Butterfly-1.10.2.zip" length="3887075" type="application/octet-stream" sparkle:edSignature="UZJVTMOPhxxyKcA43xICKjssihWKv4fGzkV+Wfxb6nXQT432skwW11eAwGk4ESi7P9J74kIcJZvBZGNjQYnNDw=="/>
         </item>
     </channel>
 </rss>
