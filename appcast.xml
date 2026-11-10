@@ -3,6 +3,19 @@
     <channel>
         <title>Butterfly</title>
         <item>
+            <title>1.11.4</title>
+            <pubDate>Tue, 10 Nov 2026 08:23:49 +0100</pubDate>
+            <sparkle:version>493</sparkle:version>
+            <sparkle:shortVersionString>1.11.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- Motion now starts more smoothly on 120 Hz displays.
+- Butterfly now uses your Mac's accent color in the menu, Settings, the tour and the license window.
+- Settings, the tour and the practice strip share one set of greys and one corner scale.
+- Clearer names: "New workspace", "Start at login" and "Tour…".
+]]></description>
+            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.11.4/Butterfly-1.11.4.zip" length="3961664" type="application/octet-stream" sparkle:edSignature="FxfHuPD5x68zrzVUkCbiojm0UmQcRbCGCO7CDetl78EZxWGT8JeG6Kkfq6JZR3BIT2GfqheA56dD2JeWisWmBw=="/>
+        </item>
+        <item>
             <title>1.11.1</title>
             <pubDate>Sun, 08 Nov 2026 15:29:25 +0100</pubDate>
             <sparkle:version>484</sparkle:version>
@@ -28,17 +41,6 @@
 - Updating from the old Chain app no longer asks for an administrator password.
 ]]></description>
             <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.10.6/Butterfly-1.10.6.zip" length="3934511" type="application/octet-stream" sparkle:edSignature="p9ViiH5dayK+Ya3q8CUmhdtNEKxDurzstQytfi9msfF0NeqkfZjC1h8rhohWusVhwpBxigos1xwMzSceqn9UBQ=="/>
-        </item>
-        <item>
-            <title>1.10.4</title>
-            <pubDate>Thu, 05 Nov 2026 19:23:45 +0100</pubDate>
-            <sparkle:version>474</sparkle:version>
-            <sparkle:shortVersionString>1.10.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- Going full screen, for example with a video, no longer moves your windows on the strip or makes them slide back when you return.
-- Apps that show a small loading window at launch, like Slack, now take their normal place on the strip.
-]]></description>
-            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.10.4/Butterfly-1.10.4.zip" length="3924055" type="application/octet-stream" sparkle:edSignature="aKnPsT9gSiqrFqxaoBnwLJM1LN47I3kuPMu6HaOxV8hsgSsb061b2cDWC/L2xrras013BiRIGm5SobVjxi3PBg=="/>
         </item>
     </channel>
 </rss>
