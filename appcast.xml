@@ -3,6 +3,18 @@
     <channel>
         <title>Butterfly</title>
         <item>
+            <title>1.11.5</title>
+            <pubDate>Tue, 10 Nov 2026 20:50:54 +0100</pubDate>
+            <sparkle:version>499</sparkle:version>
+            <sparkle:shortVersionString>1.11.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- Closing the last window of a workspace now takes you back to a workspace that still has windows.
+- Closing the last window while Overview is open now closes Overview.
+- Dragging the last window of a workspace onto another workspace in Overview now takes you there.
+]]></description>
+            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.11.5/Butterfly-1.11.5.zip" length="3966108" type="application/octet-stream" sparkle:edSignature="2w6NRady7hVhnxEjJKzrsTcROje+kPgb9m2Ve2LBCznSuEEiwNahP0DFEchP/uptzofiH5YyVFN9E2DuvePOCw=="/>
+        </item>
+        <item>
             <title>1.11.4</title>
             <pubDate>Tue, 10 Nov 2026 08:23:49 +0100</pubDate>
             <sparkle:version>493</sparkle:version>
@@ -27,20 +39,6 @@
 - Butterfly now comes as a disk image: open it and drag Butterfly to Applications.
 ]]></description>
             <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.11.1/Butterfly-1.11.1.zip" length="3963728" type="application/octet-stream" sparkle:edSignature="n6OtZiQMovXHipSed0KmjnrDLVrFJ1xp1V3Jwhsg1pt5ovPQDrxAjJC1fp99LzawuVDR5WXhcXEV3RG5/MUeBQ=="/>
-        </item>
-        <item>
-            <title>1.10.6</title>
-            <pubDate>Fri, 06 Nov 2026 14:03:21 +0100</pubDate>
-            <sparkle:version>480</sparkle:version>
-            <sparkle:shortVersionString>1.10.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- Apps with a minimum width, like Music and TV, no longer slide over their neighbors on smaller screens.
-- The tour now teaches Overview and showing the desktop, and only takes your gestures while its window is in front.
-- When macOS uses the same trackpad gestures, Butterfly tells you exactly which switches to turn off.
-- License checks recover as soon as your Mac is back online, with clearer messages about moving a license to another Mac.
-- Updating from the old Chain app no longer asks for an administrator password.
-]]></description>
-            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.10.6/Butterfly-1.10.6.zip" length="3934511" type="application/octet-stream" sparkle:edSignature="p9ViiH5dayK+Ya3q8CUmhdtNEKxDurzstQytfi9msfF0NeqkfZjC1h8rhohWusVhwpBxigos1xwMzSceqn9UBQ=="/>
         </item>
     </channel>
 </rss>
