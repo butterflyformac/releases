@@ -3,6 +3,29 @@
     <channel>
         <title>Butterfly</title>
         <item>
+            <title>1.13.1</title>
+            <pubDate>Sun, 15 Nov 2026 18:56:50 +0100</pubDate>
+            <sparkle:version>555</sparkle:version>
+            <sparkle:shortVersionString>1.13.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- New: Meeting Privacy. Windows of private apps (Messages, Mail, Slack, Notes, password managers and more) get a Liquid Glass cover that blurs their content, also for people watching when you share your whole screen.
+- The cover turns on by itself during a call, for example in Zoom, Teams, FaceTime or Google Meet, and comes off when the call ends.
+- ⌃⌥P covers or uncovers the app in front. ⌃⌥⇧P, or "Hide private windows" in the menu bar menu, does it for all private apps.
+- You can still click and type in a covered window.
+- Settings › Meeting Privacy: choose which apps are private, add your own, and set the glass strength.
+- When you quit Butterfly, your windows go back to the size and place they had before Butterfly arranged them.
+- The window you were using stays in view when tiling starts, and a short hint shows how to move between windows.
+- Settings, License and Permissions windows opened from the menu bar now come to the front and take the keyboard.
+- You can paste your license key with ⌘V, and ⌘W or Esc closes the License window.
+- The Permissions window fits on screen, and skipping the tour without Accessibility access now shows it.
+- The License window shows the price and explains what happens when the trial ends and how to move your key to another Mac.
+- New Uninstall steps in Settings › General, and the macOS 27 privacy pane is named in the Permissions text.
+- Windows of apps that open slowly, such as Messages, now join the strip reliably.
+- Clearer menu bar menu: a Tiling label, and one keyboard shortcut per action, with arrows.
+]]></description>
+            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.13.1/Butterfly-1.13.1.zip" length="4175956" type="application/octet-stream" sparkle:edSignature="+Xs6fENhU9YjpVj2yY1VWzQy2oUtGNQC3sKkF39Fwe5etTs2cAS0bry+LblxMkIMOR/sgj2Rpdwo2+p3UGDsAQ=="/>
+        </item>
+        <item>
             <title>1.11.5</title>
             <pubDate>Tue, 10 Nov 2026 20:50:54 +0100</pubDate>
             <sparkle:version>499</sparkle:version>
@@ -26,19 +49,6 @@
 - Clearer names: "New workspace", "Start at login" and "Tour…".
 ]]></description>
             <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.11.4/Butterfly-1.11.4.zip" length="3961664" type="application/octet-stream" sparkle:edSignature="FxfHuPD5x68zrzVUkCbiojm0UmQcRbCGCO7CDetl78EZxWGT8JeG6Kkfq6JZR3BIT2GfqheA56dD2JeWisWmBw=="/>
-        </item>
-        <item>
-            <title>1.11.1</title>
-            <pubDate>Sun, 08 Nov 2026 15:29:25 +0100</pubDate>
-            <sparkle:version>484</sparkle:version>
-            <sparkle:shortVersionString>1.11.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- Press the mouse wheel and move up to open Overview, or down to show the desktop.
-- Moving all windows of a workspace in Overview now takes you to that workspace.
-- Flapping icons in Overview and on the desktop no longer show a frame.
-- Butterfly now comes as a disk image: open it and drag Butterfly to Applications.
-]]></description>
-            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.11.1/Butterfly-1.11.1.zip" length="3963728" type="application/octet-stream" sparkle:edSignature="n6OtZiQMovXHipSed0KmjnrDLVrFJ1xp1V3Jwhsg1pt5ovPQDrxAjJC1fp99LzawuVDR5WXhcXEV3RG5/MUeBQ=="/>
         </item>
     </channel>
 </rss>
