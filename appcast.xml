@@ -3,6 +3,17 @@
     <channel>
         <title>Butterfly</title>
         <item>
+            <title>1.14.1</title>
+            <pubDate>Mon, 16 Nov 2026 16:16:06 +0100</pubDate>
+            <sparkle:version>593</sparkle:version>
+            <sparkle:shortVersionString>1.14.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- Smoother Basic motion: window edges no longer shake when you jump several windows with the mouse wheel or a shortcut. Trackpad swipes work exactly as before.
+- The card that stands in for a window at the edge of your other display now fades out instead of flickering, and is a little lighter.
+]]></description>
+            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.14.1/Butterfly-1.14.1.zip" length="4479397" type="application/octet-stream" sparkle:edSignature="eSKAbgKi+8Zw6wPbMWvDOnjV1mW/Q4PrMrLgdTcyQ/yp1VIA6IlzhxJJw6fceaPDxwQXIIX6bAcHKWMhMTgPCw=="/>
+        </item>
+        <item>
             <title>1.14.0</title>
             <pubDate>Mon, 16 Nov 2026 13:03:31 +0100</pubDate>
             <sparkle:version>587</sparkle:version>
@@ -39,18 +50,6 @@
 - Clearer menu bar menu: a Tiling label, and one keyboard shortcut per action, with arrows.
 ]]></description>
             <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.13.1/Butterfly-1.13.1.zip" length="4175956" type="application/octet-stream" sparkle:edSignature="+Xs6fENhU9YjpVj2yY1VWzQy2oUtGNQC3sKkF39Fwe5etTs2cAS0bry+LblxMkIMOR/sgj2Rpdwo2+p3UGDsAQ=="/>
-        </item>
-        <item>
-            <title>1.11.5</title>
-            <pubDate>Tue, 10 Nov 2026 20:50:54 +0100</pubDate>
-            <sparkle:version>499</sparkle:version>
-            <sparkle:shortVersionString>1.11.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- Closing the last window of a workspace now takes you back to a workspace that still has windows.
-- Closing the last window while Overview is open now closes Overview.
-- Dragging the last window of a workspace onto another workspace in Overview now takes you there.
-]]></description>
-            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.11.5/Butterfly-1.11.5.zip" length="3966108" type="application/octet-stream" sparkle:edSignature="2w6NRady7hVhnxEjJKzrsTcROje+kPgb9m2Ve2LBCznSuEEiwNahP0DFEchP/uptzofiH5YyVFN9E2DuvePOCw=="/>
         </item>
     </channel>
 </rss>
