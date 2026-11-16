@@ -3,6 +3,21 @@
     <channel>
         <title>Butterfly</title>
         <item>
+            <title>1.14.0</title>
+            <pubDate>Mon, 16 Nov 2026 13:03:31 +0100</pubDate>
+            <sparkle:version>587</sparkle:version>
+            <sparkle:shortVersionString>1.14.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- New: pick your Butterfly. Choose Basic or Full Butterfly in the tour, in Settings › General › Theme, or right in the menu bar menu. Full Butterfly turns on the butterfly-wing motion, the new Butterfly tabs and map, and a soft wing sound. You can still turn each part on or off on its own.
+- New Butterfly tabs: a window with tabs shows them in the shape of the Butterfly icon, each part filled with an app. Click a part to switch tabs; with more than four tabs, "+N" takes you to the next one.
+- New Butterfly map: the windows on screen sit in the body of the butterfly, the rest in the wings on both sides. Drag a window between others to move it, or rest it over another window to combine them into tabs.
+- New wing sound: a soft flutter when the strip lands on another window, with its own volume. It stays silent during calls. Off by default; turn it on in Settings › Gestures & Mouse.
+- If your Dock hides automatically, the window map no longer ends up under it when the Dock slides in.
+- The menu bar menu shows Theme instead of Motion. Motion styles stay in Settings › Motion.
+]]></description>
+            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.14.0/Butterfly-1.14.0.zip" length="4467008" type="application/octet-stream" sparkle:edSignature="sPn+Q9W7LP58zHXGTtqrHf2ZQIRSYihdXLxefuI7gDozrfjp5y9vwJmbyO2lymorvScrFLjwnd1pSVU3kw0mCA=="/>
+        </item>
+        <item>
             <title>1.13.1</title>
             <pubDate>Sun, 15 Nov 2026 18:56:50 +0100</pubDate>
             <sparkle:version>555</sparkle:version>
@@ -36,19 +51,6 @@
 - Dragging the last window of a workspace onto another workspace in Overview now takes you there.
 ]]></description>
             <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.11.5/Butterfly-1.11.5.zip" length="3966108" type="application/octet-stream" sparkle:edSignature="2w6NRady7hVhnxEjJKzrsTcROje+kPgb9m2Ve2LBCznSuEEiwNahP0DFEchP/uptzofiH5YyVFN9E2DuvePOCw=="/>
-        </item>
-        <item>
-            <title>1.11.4</title>
-            <pubDate>Tue, 10 Nov 2026 08:23:49 +0100</pubDate>
-            <sparkle:version>493</sparkle:version>
-            <sparkle:shortVersionString>1.11.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- Motion now starts more smoothly on 120 Hz displays.
-- Butterfly now uses your Mac's accent color in the menu, Settings, the tour and the license window.
-- Settings, the tour and the practice strip share one set of greys and one corner scale.
-- Clearer names: "New workspace", "Start at login" and "Tour…".
-]]></description>
-            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.11.4/Butterfly-1.11.4.zip" length="3961664" type="application/octet-stream" sparkle:edSignature="FxfHuPD5x68zrzVUkCbiojm0UmQcRbCGCO7CDetl78EZxWGT8JeG6Kkfq6JZR3BIT2GfqheA56dD2JeWisWmBw=="/>
         </item>
     </channel>
 </rss>
