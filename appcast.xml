@@ -3,6 +3,17 @@
     <channel>
         <title>Butterfly</title>
         <item>
+            <title>1.14.2</title>
+            <pubDate>Tue, 17 Nov 2026 14:25:13 +0100</pubDate>
+            <sparkle:version>597</sparkle:version>
+            <sparkle:shortVersionString>1.14.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- A window you resized by hand on your other display no longer snaps back to its old width when you move windows on the first display.
+- The wing sound is now off unless you turn it on, and Full Butterfly no longer turns it on. If you had it on, the update turns it off once. Turn it back on in the menu bar (Wing sound) or in Settings › General, right under Theme.
+]]></description>
+            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.14.2/Butterfly-1.14.2.zip" length="4485801" type="application/octet-stream" sparkle:edSignature="Lm8wq0gfcOPL67ybpgt1JnNt+AYcdBFJ2QufXdLqFICEtGGc4kHrfxnaLhb/6GZHe2cPUKnBj+gwvkggXga4DQ=="/>
+        </item>
+        <item>
             <title>1.14.1</title>
             <pubDate>Mon, 16 Nov 2026 16:16:06 +0100</pubDate>
             <sparkle:version>593</sparkle:version>
@@ -27,29 +38,6 @@
 - The menu bar menu shows Theme instead of Motion. Motion styles stay in Settings › Motion.
 ]]></description>
             <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.14.0/Butterfly-1.14.0.zip" length="4467008" type="application/octet-stream" sparkle:edSignature="sPn+Q9W7LP58zHXGTtqrHf2ZQIRSYihdXLxefuI7gDozrfjp5y9vwJmbyO2lymorvScrFLjwnd1pSVU3kw0mCA=="/>
-        </item>
-        <item>
-            <title>1.13.1</title>
-            <pubDate>Sun, 15 Nov 2026 18:56:50 +0100</pubDate>
-            <sparkle:version>555</sparkle:version>
-            <sparkle:shortVersionString>1.13.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- New: Meeting Privacy. Windows of private apps (Messages, Mail, Slack, Notes, password managers and more) get a Liquid Glass cover that blurs their content, also for people watching when you share your whole screen.
-- The cover turns on by itself during a call, for example in Zoom, Teams, FaceTime or Google Meet, and comes off when the call ends.
-- ⌃⌥P covers or uncovers the app in front. ⌃⌥⇧P, or "Hide private windows" in the menu bar menu, does it for all private apps.
-- You can still click and type in a covered window.
-- Settings › Meeting Privacy: choose which apps are private, add your own, and set the glass strength.
-- When you quit Butterfly, your windows go back to the size and place they had before Butterfly arranged them.
-- The window you were using stays in view when tiling starts, and a short hint shows how to move between windows.
-- Settings, License and Permissions windows opened from the menu bar now come to the front and take the keyboard.
-- You can paste your license key with ⌘V, and ⌘W or Esc closes the License window.
-- The Permissions window fits on screen, and skipping the tour without Accessibility access now shows it.
-- The License window shows the price and explains what happens when the trial ends and how to move your key to another Mac.
-- New Uninstall steps in Settings › General, and the macOS 27 privacy pane is named in the Permissions text.
-- Windows of apps that open slowly, such as Messages, now join the strip reliably.
-- Clearer menu bar menu: a Tiling label, and one keyboard shortcut per action, with arrows.
-]]></description>
-            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.13.1/Butterfly-1.13.1.zip" length="4175956" type="application/octet-stream" sparkle:edSignature="+Xs6fENhU9YjpVj2yY1VWzQy2oUtGNQC3sKkF39Fwe5etTs2cAS0bry+LblxMkIMOR/sgj2Rpdwo2+p3UGDsAQ=="/>
         </item>
     </channel>
 </rss>
