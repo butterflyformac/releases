@@ -3,6 +3,22 @@
     <channel>
         <title>Butterfly</title>
         <item>
+            <title>1.15.0</title>
+            <pubDate>Wed, 18 Nov 2026 07:50:55 +0100</pubDate>
+            <sparkle:version>611</sparkle:version>
+            <sparkle:shortVersionString>1.15.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- New: shake windows out of tabs. On the window map, grab a group of tabs and shake it left and right. The tabs come apart and the windows go back on the strip side by side. Works with a mouse and a trackpad.
+- New: take one window out of a stack or a tab group. Drag it from the window map into a gap between other windows and it gets its own column.
+- The Classic map can now combine windows into tabs too: rest a dragged window over the middle of another one, and drop it when "Combine into tabs" shows up.
+- A tab group on the Classic map shows the icons of its tabs side by side, not only the active one.
+- Clearer full width: the tour and a one-time tip now show that ⌃⌥F makes a window full width and that it stays on the strip, so you can still move it with ⌃⌥⇧← / →.
+- New Check for Updates button in Settings › General.
+- Butterfly map: wing tiles get their app icons back after a window returns to the map, and a window that became a tab no longer leaves an extra tile behind.
+]]></description>
+            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.15.0/Butterfly-1.15.0.zip" length="4527104" type="application/octet-stream" sparkle:edSignature="yt+eIpaz/mSDbEHD59neHSHM4E/LkKYHGxJPb5df44SWdhDUPdI7Aw6PWJk1KKH3nV4XOd9K1tycbr91tF84AQ=="/>
+        </item>
+        <item>
             <title>1.14.2</title>
             <pubDate>Tue, 17 Nov 2026 14:25:13 +0100</pubDate>
             <sparkle:version>597</sparkle:version>
@@ -23,21 +39,6 @@
 - The card that stands in for a window at the edge of your other display now fades out instead of flickering, and is a little lighter.
 ]]></description>
             <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.14.1/Butterfly-1.14.1.zip" length="4479397" type="application/octet-stream" sparkle:edSignature="eSKAbgKi+8Zw6wPbMWvDOnjV1mW/Q4PrMrLgdTcyQ/yp1VIA6IlzhxJJw6fceaPDxwQXIIX6bAcHKWMhMTgPCw=="/>
-        </item>
-        <item>
-            <title>1.14.0</title>
-            <pubDate>Mon, 16 Nov 2026 13:03:31 +0100</pubDate>
-            <sparkle:version>587</sparkle:version>
-            <sparkle:shortVersionString>1.14.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- New: pick your Butterfly. Choose Basic or Full Butterfly in the tour, in Settings › General › Theme, or right in the menu bar menu. Full Butterfly turns on the butterfly-wing motion, the new Butterfly tabs and map, and a soft wing sound. You can still turn each part on or off on its own.
-- New Butterfly tabs: a window with tabs shows them in the shape of the Butterfly icon, each part filled with an app. Click a part to switch tabs; with more than four tabs, "+N" takes you to the next one.
-- New Butterfly map: the windows on screen sit in the body of the butterfly, the rest in the wings on both sides. Drag a window between others to move it, or rest it over another window to combine them into tabs.
-- New wing sound: a soft flutter when the strip lands on another window, with its own volume. It stays silent during calls. Off by default; turn it on in Settings › Gestures & Mouse.
-- If your Dock hides automatically, the window map no longer ends up under it when the Dock slides in.
-- The menu bar menu shows Theme instead of Motion. Motion styles stay in Settings › Motion.
-]]></description>
-            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.14.0/Butterfly-1.14.0.zip" length="4467008" type="application/octet-stream" sparkle:edSignature="sPn+Q9W7LP58zHXGTtqrHf2ZQIRSYihdXLxefuI7gDozrfjp5y9vwJmbyO2lymorvScrFLjwnd1pSVU3kw0mCA=="/>
         </item>
     </channel>
 </rss>
