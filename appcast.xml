@@ -3,6 +3,19 @@
     <channel>
         <title>Butterfly</title>
         <item>
+            <title>1.21.2</title>
+            <pubDate>Wed, 18 Nov 2026 23:59:37 +0100</pubDate>
+            <sparkle:version>659</sparkle:version>
+            <sparkle:shortVersionString>1.21.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- New gesture tour: one gesture per step, with a preview of the move and a test area where you try it yourself. Next unlocks once you've done the gesture, Skip tour is always there, and closing the window pauses the tour so it picks up where you left off.
+- Butterfly now has an icon in the Dock. Click it to open Settings, right-click for Pause tiling and the tour. Turn it off in Settings › General › Show in Dock.
+- The strip map stays on screen longer after a swipe: 2 seconds by default, adjustable from 0.5 to 5 seconds in Settings › Strip & Windows › Map stays.
+- Meeting Privacy no longer covers a whole full-screen browser during a call. Glass stays only on private windows of the current Space and comes back when you return to the desktop.
+]]></description>
+            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.21.2/Butterfly-1.21.2.zip" length="4872169" type="application/octet-stream" sparkle:edSignature="i5/E3F3so4LG9ViIp1OnpRxwSW9bMD4iqtoT3HvAzvg053rztPoHi716BcEYcBRveuDhKreI7pM8WWRhDN8KAQ=="/>
+        </item>
+        <item>
             <title>1.18.0</title>
             <pubDate>Wed, 18 Nov 2026 13:09:55 +0100</pubDate>
             <sparkle:version>633</sparkle:version>
@@ -34,17 +47,6 @@
 - Butterfly map: wing tiles get their app icons back after a window returns to the map, and a window that became a tab no longer leaves an extra tile behind.
 ]]></description>
             <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.15.0/Butterfly-1.15.0.zip" length="4527104" type="application/octet-stream" sparkle:edSignature="yt+eIpaz/mSDbEHD59neHSHM4E/LkKYHGxJPb5df44SWdhDUPdI7Aw6PWJk1KKH3nV4XOd9K1tycbr91tF84AQ=="/>
-        </item>
-        <item>
-            <title>1.14.2</title>
-            <pubDate>Tue, 17 Nov 2026 14:25:13 +0100</pubDate>
-            <sparkle:version>597</sparkle:version>
-            <sparkle:shortVersionString>1.14.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- A window you resized by hand on your other display no longer snaps back to its old width when you move windows on the first display.
-- The wing sound is now off unless you turn it on, and Full Butterfly no longer turns it on. If you had it on, the update turns it off once. Turn it back on in the menu bar (Wing sound) or in Settings › General, right under Theme.
-]]></description>
-            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.14.2/Butterfly-1.14.2.zip" length="4485801" type="application/octet-stream" sparkle:edSignature="Lm8wq0gfcOPL67ybpgt1JnNt+AYcdBFJ2QufXdLqFICEtGGc4kHrfxnaLhb/6GZHe2cPUKnBj+gwvkggXga4DQ=="/>
         </item>
     </channel>
 </rss>
