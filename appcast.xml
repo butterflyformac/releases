@@ -3,6 +3,23 @@
     <channel>
         <title>Butterfly</title>
         <item>
+            <title>1.18.0</title>
+            <pubDate>Wed, 18 Nov 2026 13:09:55 +0100</pubDate>
+            <sparkle:version>633</sparkle:version>
+            <sparkle:shortVersionString>1.18.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- New: change any shortcut. Open Settings › Shortcuts, click a shortcut and press the new keys. Esc cancels, Delete removes it, ↺ brings one row back.
+- New shortcut presets: Butterfly (as before), AeroSpace style (⌥ instead of ⌃⌥) and Hyper key (for Caps Lock set up as ⌃⌥⇧⌘ in Karabiner, Raycast or BetterTouchTool).
+- Essentials at the top of Settings › Shortcuts: the shortcuts people use most, in one place.
+- Butterfly warns before a new shortcut collides: with another Butterfly shortcut (Replace), with macOS (for example Mission Control), or with ⌥ + letter, which types special characters.
+- The tour, tips and menus show your current shortcuts.
+- Butterfly now offers to move itself to Applications when opened from the disk image or Downloads, so updates keep working.
+- Overview opens on an empty workspace too, with a "No windows in this workspace" note and the workspace pills, so you can switch from there. With only one workspace and no windows, a short hint tells you to open an app.
+- Overview bends evenly around the middle of the screen, whichever window has focus.
+]]></description>
+            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.18.0/Butterfly-1.18.0.zip" length="4746379" type="application/octet-stream" sparkle:edSignature="u/HBUgNfDtk7XkkaeZQQsaB26Cznix7kGan9R7LgqNAFG/3I6IOilUiz5WDY5ulU03kyWBpVW6UbQy2AznqZDA=="/>
+        </item>
+        <item>
             <title>1.15.0</title>
             <pubDate>Wed, 18 Nov 2026 07:50:55 +0100</pubDate>
             <sparkle:version>611</sparkle:version>
@@ -28,17 +45,6 @@
 - The wing sound is now off unless you turn it on, and Full Butterfly no longer turns it on. If you had it on, the update turns it off once. Turn it back on in the menu bar (Wing sound) or in Settings › General, right under Theme.
 ]]></description>
             <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.14.2/Butterfly-1.14.2.zip" length="4485801" type="application/octet-stream" sparkle:edSignature="Lm8wq0gfcOPL67ybpgt1JnNt+AYcdBFJ2QufXdLqFICEtGGc4kHrfxnaLhb/6GZHe2cPUKnBj+gwvkggXga4DQ=="/>
-        </item>
-        <item>
-            <title>1.14.1</title>
-            <pubDate>Mon, 16 Nov 2026 16:16:06 +0100</pubDate>
-            <sparkle:version>593</sparkle:version>
-            <sparkle:shortVersionString>1.14.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- Smoother Basic motion: window edges no longer shake when you jump several windows with the mouse wheel or a shortcut. Trackpad swipes work exactly as before.
-- The card that stands in for a window at the edge of your other display now fades out instead of flickering, and is a little lighter.
-]]></description>
-            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.14.1/Butterfly-1.14.1.zip" length="4479397" type="application/octet-stream" sparkle:edSignature="eSKAbgKi+8Zw6wPbMWvDOnjV1mW/Q4PrMrLgdTcyQ/yp1VIA6IlzhxJJw6fceaPDxwQXIIX6bAcHKWMhMTgPCw=="/>
         </item>
     </channel>
 </rss>
