@@ -3,6 +3,18 @@
     <channel>
         <title>Butterfly</title>
         <item>
+            <title>1.22.3</title>
+            <pubDate>Thu, 19 Nov 2026 15:57:35 +0100</pubDate>
+            <sparkle:version>678</sparkle:version>
+            <sparkle:shortVersionString>1.22.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- Meeting Privacy no longer turns on by itself during calls. To blur private windows automatically in every call, turn it on in Settings › Meeting Privacy.
+- The tour now shows Meeting Privacy with a switch, so you can turn automatic blur on or off right there.
+- The shortcuts that cover the window in front or every private app work as before.
+]]></description>
+            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.22.3/Butterfly-1.22.3.zip" length="4876322" type="application/octet-stream" sparkle:edSignature="EcmRrIwOCk782lPggVzRZe88/oK0JMYb5d+CtKTkBB5UnP6pR4x99Wi3KJVjU55YKI+9c4/9E6OEwomKYFNtAA=="/>
+        </item>
+        <item>
             <title>1.21.2</title>
             <pubDate>Wed, 18 Nov 2026 23:59:37 +0100</pubDate>
             <sparkle:version>659</sparkle:version>
@@ -31,22 +43,6 @@
 - Overview bends evenly around the middle of the screen, whichever window has focus.
 ]]></description>
             <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.18.0/Butterfly-1.18.0.zip" length="4746379" type="application/octet-stream" sparkle:edSignature="u/HBUgNfDtk7XkkaeZQQsaB26Cznix7kGan9R7LgqNAFG/3I6IOilUiz5WDY5ulU03kyWBpVW6UbQy2AznqZDA=="/>
-        </item>
-        <item>
-            <title>1.15.0</title>
-            <pubDate>Wed, 18 Nov 2026 07:50:55 +0100</pubDate>
-            <sparkle:version>611</sparkle:version>
-            <sparkle:shortVersionString>1.15.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- New: shake windows out of tabs. On the window map, grab a group of tabs and shake it left and right. The tabs come apart and the windows go back on the strip side by side. Works with a mouse and a trackpad.
-- New: take one window out of a stack or a tab group. Drag it from the window map into a gap between other windows and it gets its own column.
-- The Classic map can now combine windows into tabs too: rest a dragged window over the middle of another one, and drop it when "Combine into tabs" shows up.
-- A tab group on the Classic map shows the icons of its tabs side by side, not only the active one.
-- Clearer full width: the tour and a one-time tip now show that ⌃⌥F makes a window full width and that it stays on the strip, so you can still move it with ⌃⌥⇧← / →.
-- New Check for Updates button in Settings › General.
-- Butterfly map: wing tiles get their app icons back after a window returns to the map, and a window that became a tab no longer leaves an extra tile behind.
-]]></description>
-            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.15.0/Butterfly-1.15.0.zip" length="4527104" type="application/octet-stream" sparkle:edSignature="yt+eIpaz/mSDbEHD59neHSHM4E/LkKYHGxJPb5df44SWdhDUPdI7Aw6PWJk1KKH3nV4XOd9K1tycbr91tF84AQ=="/>
         </item>
     </channel>
 </rss>
