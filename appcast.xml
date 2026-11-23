@@ -3,6 +3,20 @@
     <channel>
         <title>Butterfly</title>
         <item>
+            <title>1.23.1</title>
+            <pubDate>Mon, 23 Nov 2026 08:12:16 +0100</pubDate>
+            <sparkle:version>716</sparkle:version>
+            <sparkle:shortVersionString>1.23.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- Layouts: save the windows of a workspace with ⌃⌥⇧S and bring them back with ⌃⌥⇧R (your latest saved layout). Up to 9 layouts in the ⛓ menu › Layouts, in Settings › Layouts and with a right click on a workspace in Overview. Restoring moves windows from other workspaces, opens apps that are closed and puts their windows in place as they appear. Optional: hide other apps when restoring.
+- After a Mac restart, the current workspace is arranged like your latest saved layout. Turn it off in Settings › Layouts. Without a saved layout, Butterfly restores the arrangement from before the restart.
+- Windows of apps that start late after a restart, or after you unlock the screen, now land in their saved places instead of at the end of the strip.
+- ⌃⌥T only floats a window of the app in front. With an app that is not on the strip, it does nothing instead of floating another window.
+- Windows parked at the edge of the screen no longer show a strip there: at most 1 point stays on screen (before up to 10 points, and some apps up to 40).
+]]></description>
+            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.23.1/Butterfly-1.23.1.zip" length="5118936" type="application/octet-stream" sparkle:edSignature="uEPX8iRoDoa2Q/Eq/bFTm+MzitQ5iCk7+AwpHn5zSLhEwGWwFqjhEXJeNxGk8+4koQTn1FUTBwrmBYV82XqaDA=="/>
+        </item>
+        <item>
             <title>1.22.4</title>
             <pubDate>Fri, 20 Nov 2026 08:35:24 +0100</pubDate>
             <sparkle:version>682</sparkle:version>
@@ -24,19 +38,6 @@
 - The shortcuts that cover the window in front or every private app work as before.
 ]]></description>
             <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.22.3/Butterfly-1.22.3.zip" length="4876322" type="application/octet-stream" sparkle:edSignature="EcmRrIwOCk782lPggVzRZe88/oK0JMYb5d+CtKTkBB5UnP6pR4x99Wi3KJVjU55YKI+9c4/9E6OEwomKYFNtAA=="/>
-        </item>
-        <item>
-            <title>1.21.2</title>
-            <pubDate>Wed, 18 Nov 2026 23:59:37 +0100</pubDate>
-            <sparkle:version>659</sparkle:version>
-            <sparkle:shortVersionString>1.21.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- New gesture tour: one gesture per step, with a preview of the move and a test area where you try it yourself. Next unlocks once you've done the gesture, Skip tour is always there, and closing the window pauses the tour so it picks up where you left off.
-- Butterfly now has an icon in the Dock. Click it to open Settings, right-click for Pause tiling and the tour. Turn it off in Settings › General › Show in Dock.
-- The strip map stays on screen longer after a swipe: 2 seconds by default, adjustable from 0.5 to 5 seconds in Settings › Strip & Windows › Map stays.
-- Meeting Privacy no longer covers a whole full-screen browser during a call. Glass stays only on private windows of the current Space and comes back when you return to the desktop.
-]]></description>
-            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.21.2/Butterfly-1.21.2.zip" length="4872169" type="application/octet-stream" sparkle:edSignature="i5/E3F3so4LG9ViIp1OnpRxwSW9bMD4iqtoT3HvAzvg053rztPoHi716BcEYcBRveuDhKreI7pM8WWRhDN8KAQ=="/>
         </item>
     </channel>
 </rss>
