@@ -3,6 +3,28 @@
     <channel>
         <title>Butterfly</title>
         <item>
+            <title>1.24.1</title>
+            <pubDate>Mon, 23 Nov 2026 22:03:41 +0100</pubDate>
+            <sparkle:version>730</sparkle:version>
+            <sparkle:shortVersionString>1.24.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## New
+- Double-click a window's title bar to make it full width, and again to bring its width back. It works like ⌃⌥F and follows your macOS setting for double-clicking a title bar (Fill).
+
+## Improved
+- Butterfly fits the strip to each screen on its own. On smaller screens the gaps are tighter, a new window fills almost the whole screen with the next window peeking in at the side, and ⌃⌥R skips widths that would make a window too narrow to use. On very wide screens, three new windows fit side by side.
+- On windows too narrow for all tab icons, the tab capsule folds into the active tab's icon and the number of tabs. Point at it to unfold it.
+- The window map is smaller on screens with less height.
+- In the Full Butterfly theme, windows you are not working in no longer show old content while the strip moves. Butterfly checks them every few seconds with a tiny preview and takes a fresh shot only when something changed, so it stays as light as before.
+
+## Fixed
+- A window that can't get narrower than its column, such as Photos at half the width of a smaller screen, no longer covers the window next to it. Its column now takes the window's own width.
+- Switching a tab to a window of another app, with a click on the tab capsule or a shortcut, now brings that app to the front and you can type in it right away. Before, only the icon changed.
+- Moving the focus with the keyboard, or swiping to some apps (such as Dia), now brings that app to the front too.
+]]></description>
+            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.24.1/Butterfly-1.24.1.zip" length="5199769" type="application/octet-stream" sparkle:edSignature="WhXg6FqYd2ccBJlfzZYS1wvzDjXXMYkNyNgU0JJhzs+gCbWTwvdMtU+brX9b1gWHBfyTJNbGQbBthY/Yu9p0AQ=="/>
+        </item>
+        <item>
             <title>1.23.1</title>
             <pubDate>Mon, 23 Nov 2026 08:12:16 +0100</pubDate>
             <sparkle:version>716</sparkle:version>
@@ -26,18 +48,6 @@
 - Smoother with Meeting Privacy on: Butterfly does less work behind private-window glass, so screen sharing and clicking in other apps stay responsive.
 ]]></description>
             <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.22.4/Butterfly-1.22.4.zip" length="4882148" type="application/octet-stream" sparkle:edSignature="U8H6UtU9ddjLwYJEjtfFtTajwDNgB6CaqFZ8JczLb7BUNj4U81KRbcWgWmO4rls/Fdv17MGXOXi+b6qZGPj7Aw=="/>
-        </item>
-        <item>
-            <title>1.22.3</title>
-            <pubDate>Thu, 19 Nov 2026 15:57:35 +0100</pubDate>
-            <sparkle:version>678</sparkle:version>
-            <sparkle:shortVersionString>1.22.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- Meeting Privacy no longer turns on by itself during calls. To blur private windows automatically in every call, turn it on in Settings › Meeting Privacy.
-- The tour now shows Meeting Privacy with a switch, so you can turn automatic blur on or off right there.
-- The shortcuts that cover the window in front or every private app work as before.
-]]></description>
-            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.22.3/Butterfly-1.22.3.zip" length="4876322" type="application/octet-stream" sparkle:edSignature="EcmRrIwOCk782lPggVzRZe88/oK0JMYb5d+CtKTkBB5UnP6pR4x99Wi3KJVjU55YKI+9c4/9E6OEwomKYFNtAA=="/>
         </item>
     </channel>
 </rss>
