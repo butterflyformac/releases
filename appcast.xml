@@ -3,6 +3,23 @@
     <channel>
         <title>Butterfly</title>
         <item>
+            <title>1.25.2</title>
+            <pubDate>Wed, 25 Nov 2026 22:06:15 +0100</pubDate>
+            <sparkle:version>795</sparkle:version>
+            <sparkle:shortVersionString>1.25.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Improved
+- Several swipes in a row are smoother. After each swipe Butterfly brought the next app forward on the same thread that draws the motion, so the next swipe could stutter.
+- The strip map no longer makes a move stutter when a window crosses the edge of the screen.
+- Opening or closing a window, or starting an app, while the strip is moving no longer interrupts the move. The strip picks up the change as soon as it stops.
+
+## Fixed
+- A window you bring back from the Dock now appears right where it stays. Before, it showed up at its old place for a moment and then moved.
+- A window that goes full screen on a second display keeps its place on the strip. Before, it could come back as a new window at half the width of the screen.
+]]></description>
+            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.25.2/Butterfly-1.25.2.zip" length="5799963" type="application/octet-stream" sparkle:edSignature="cEDVcy9c4QPm/PkgRSmHAskSeTvft1cOx+Qi5gNbHCfmlI1xEYdKGXDy+C46SAja66fywUUPDyWrT9JdQ3aYCw=="/>
+        </item>
+        <item>
             <title>1.25.1</title>
             <pubDate>Tue, 24 Nov 2026 21:17:24 +0100</pubDate>
             <sparkle:version>776</sparkle:version>
@@ -51,20 +68,6 @@
 - Moving the focus with the keyboard, or swiping to some apps (such as Dia), now brings that app to the front too.
 ]]></description>
             <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.24.1/Butterfly-1.24.1.zip" length="5199769" type="application/octet-stream" sparkle:edSignature="WhXg6FqYd2ccBJlfzZYS1wvzDjXXMYkNyNgU0JJhzs+gCbWTwvdMtU+brX9b1gWHBfyTJNbGQbBthY/Yu9p0AQ=="/>
-        </item>
-        <item>
-            <title>1.23.1</title>
-            <pubDate>Mon, 23 Nov 2026 08:12:16 +0100</pubDate>
-            <sparkle:version>716</sparkle:version>
-            <sparkle:shortVersionString>1.23.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- Layouts: save the windows of a workspace with ⌃⌥⇧S and bring them back with ⌃⌥⇧R (your latest saved layout). Up to 9 layouts in the ⛓ menu › Layouts, in Settings › Layouts and with a right click on a workspace in Overview. Restoring moves windows from other workspaces, opens apps that are closed and puts their windows in place as they appear. Optional: hide other apps when restoring.
-- After a Mac restart, the current workspace is arranged like your latest saved layout. Turn it off in Settings › Layouts. Without a saved layout, Butterfly restores the arrangement from before the restart.
-- Windows of apps that start late after a restart, or after you unlock the screen, now land in their saved places instead of at the end of the strip.
-- ⌃⌥T only floats a window of the app in front. With an app that is not on the strip, it does nothing instead of floating another window.
-- Windows parked at the edge of the screen no longer show a strip there: at most 1 point stays on screen (before up to 10 points, and some apps up to 40).
-]]></description>
-            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.23.1/Butterfly-1.23.1.zip" length="5118936" type="application/octet-stream" sparkle:edSignature="uEPX8iRoDoa2Q/Eq/bFTm+MzitQ5iCk7+AwpHn5zSLhEwGWwFqjhEXJeNxGk8+4koQTn1FUTBwrmBYV82XqaDA=="/>
         </item>
     </channel>
 </rss>
