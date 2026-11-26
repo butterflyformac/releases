@@ -3,6 +3,17 @@
     <channel>
         <title>Butterfly</title>
         <item>
+            <title>1.25.7</title>
+            <pubDate>Thu, 26 Nov 2026 22:41:05 +0100</pubDate>
+            <sparkle:version>820</sparkle:version>
+            <sparkle:shortVersionString>1.25.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Fixed
+- A window that can't get narrower, like WhatsApp, no longer pushes its neighbour off the screen. When two windows share a small screen half and half and one of them needs more room, the other one gives up the difference, so both stay fully visible and clicking between them no longer scrolls the strip. Before, the neighbour next to a second monitor could disappear completely.
+]]></description>
+            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.25.7/Butterfly-1.25.7.zip" length="5831079" type="application/octet-stream" sparkle:edSignature="053kMsoEpJNOnl1L5CI+c9Cob170n/vqnEz81fS4+1rWneNbWs/hkRtfRso57hXrDh98blSdijIohWgVMA2uDA=="/>
+        </item>
+        <item>
             <title>1.25.6</title>
             <pubDate>Thu, 26 Nov 2026 15:05:34 +0100</pubDate>
             <sparkle:version>815</sparkle:version>
@@ -36,34 +47,6 @@
 - A window that goes full screen on a second display keeps its place on the strip. Before, it could come back as a new window at half the width of the screen.
 ]]></description>
             <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.25.2/Butterfly-1.25.2.zip" length="5799963" type="application/octet-stream" sparkle:edSignature="cEDVcy9c4QPm/PkgRSmHAskSeTvft1cOx+Qi5gNbHCfmlI1xEYdKGXDy+C46SAja66fywUUPDyWrT9JdQ3aYCw=="/>
-        </item>
-        <item>
-            <title>1.25.1</title>
-            <pubDate>Tue, 24 Nov 2026 21:17:24 +0100</pubDate>
-            <sparkle:version>776</sparkle:version>
-            <sparkle:shortVersionString>1.25.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## New
-- Workspace templates: pick Code, Work, Research, Meeting or Home from the ⛓ menu or Settings and Butterfly makes a new workspace with the right apps side by side, and where it helps, one above the other (Claude over Terminal, chat over mail). Apps that are closed open in the background.
-- Each template suggests apps you already have on your Mac. Swap any of them, choose none, or put any other app in a slot before you create the workspace.
-- New windows of a template's apps go to its workspace, so a new Slack or Mail window lands where you work with it. A short capsule shows where it went. You can turn this off per template.
-- Save the current workspace as your own template, and apply any template to the workspace you are in.
-- Butterfly can learn which apps you use together, only on your Mac and without window titles, and suggests a template made from your usage. You can turn this off or clear the data in Settings.
-- The tour ends with a step to start with a template.
-- When you create a workspace from a template, show the desktop or bring windows back, each window turns into a butterfly made of its app icon that flies to its place and turns back into the window.
-
-## Improved
-- Workspaces, templates and saved layouts live together in Settings › Workspaces & Layouts. The current workspace shows its apps and a small picture of its layout, and every template shows its layout before you create it.
-- A new workspace from a template fits your screen, so all its windows are visible right away.
-- Settings buttons never wrap, and the Settings window is a little larger.
-- When you drag the edge of a window to change its width, the column now keeps that width, like after ⌃⌥R. It stays after you move along the strip and after Butterfly restarts. When you drag a window's left edge to the left, the edge stays where you let go and the strip moves under it.
-
-## Fixed
-- Restoring a saved layout while its windows are open now moves the windows into place right away.
-- Showing an app that was hidden no longer moves its windows to another workspace.
-- The thin strip of a window parked at the edge of the screen, and the corner of a window from a hidden workspace, no longer react to clicks. Before, a click right at the screen edge could bring a hidden window forward.
-]]></description>
-            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.25.1/Butterfly-1.25.1.zip" length="5753106" type="application/octet-stream" sparkle:edSignature="nF0hG/T91eYCpCEoLTDLjTJ4RqT2XNK4Qyw9ECfkRNyL2Xz4QygIb/dB12qanSHis9yA0a2CB/He5NFqtPUiAA=="/>
         </item>
     </channel>
 </rss>
