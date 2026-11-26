@@ -3,6 +3,24 @@
     <channel>
         <title>Butterfly</title>
         <item>
+            <title>1.25.6</title>
+            <pubDate>Thu, 26 Nov 2026 15:05:34 +0100</pubDate>
+            <sparkle:version>815</sparkle:version>
+            <sparkle:shortVersionString>1.25.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Improved
+- Moves in the Butterfly theme are smoother. The strip map faded in as a separate window at the start of a move, which could make the screen wait for a moment. Now it fades in without that wait.
+- Butterfly is ready right away after you unlock your Mac or wake the screens. It looks for your windows once instead of several times, and an app that is still waking up no longer holds it up.
+- Opening a new app while the strip is moving no longer makes the move stutter.
+- Overview opens without a hitch. App icons and window labels are ready before you open it.
+- In the Strafe motion the glass appears faster when the strip starts moving.
+
+## Fixed
+- Windows keep their order on the strip after you come back to a locked Mac. Before, waking the screens before unlocking could take some windows off the strip, and they came back in different places.
+]]></description>
+            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.25.6/Butterfly-1.25.6.zip" length="5828778" type="application/octet-stream" sparkle:edSignature="+N7JfURqws9crTsDyrzcopp+cbfX+8fxiiDbk1zcaLxSzcendxsOyH6AgpA1B5VUvONTLdYCt7VCGf4DKbAfDA=="/>
+        </item>
+        <item>
             <title>1.25.2</title>
             <pubDate>Wed, 25 Nov 2026 22:06:15 +0100</pubDate>
             <sparkle:version>795</sparkle:version>
@@ -46,28 +64,6 @@
 - The thin strip of a window parked at the edge of the screen, and the corner of a window from a hidden workspace, no longer react to clicks. Before, a click right at the screen edge could bring a hidden window forward.
 ]]></description>
             <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.25.1/Butterfly-1.25.1.zip" length="5753106" type="application/octet-stream" sparkle:edSignature="nF0hG/T91eYCpCEoLTDLjTJ4RqT2XNK4Qyw9ECfkRNyL2Xz4QygIb/dB12qanSHis9yA0a2CB/He5NFqtPUiAA=="/>
-        </item>
-        <item>
-            <title>1.24.1</title>
-            <pubDate>Mon, 23 Nov 2026 22:03:41 +0100</pubDate>
-            <sparkle:version>730</sparkle:version>
-            <sparkle:shortVersionString>1.24.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## New
-- Double-click a window's title bar to make it full width, and again to bring its width back. It works like ⌃⌥F and follows your macOS setting for double-clicking a title bar (Fill).
-
-## Improved
-- Butterfly fits the strip to each screen on its own. On smaller screens the gaps are tighter, a new window fills almost the whole screen with the next window peeking in at the side, and ⌃⌥R skips widths that would make a window too narrow to use. On very wide screens, three new windows fit side by side.
-- On windows too narrow for all tab icons, the tab capsule folds into the active tab's icon and the number of tabs. Point at it to unfold it.
-- The window map is smaller on screens with less height.
-- In the Full Butterfly theme, windows you are not working in no longer show old content while the strip moves. Butterfly checks them every few seconds with a tiny preview and takes a fresh shot only when something changed, so it stays as light as before.
-
-## Fixed
-- A window that can't get narrower than its column, such as Photos at half the width of a smaller screen, no longer covers the window next to it. Its column now takes the window's own width.
-- Switching a tab to a window of another app, with a click on the tab capsule or a shortcut, now brings that app to the front and you can type in it right away. Before, only the icon changed.
-- Moving the focus with the keyboard, or swiping to some apps (such as Dia), now brings that app to the front too.
-]]></description>
-            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.24.1/Butterfly-1.24.1.zip" length="5199769" type="application/octet-stream" sparkle:edSignature="WhXg6FqYd2ccBJlfzZYS1wvzDjXXMYkNyNgU0JJhzs+gCbWTwvdMtU+brX9b1gWHBfyTJNbGQbBthY/Yu9p0AQ=="/>
         </item>
     </channel>
 </rss>
