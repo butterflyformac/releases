@@ -3,6 +3,22 @@
     <channel>
         <title>Butterfly</title>
         <item>
+            <title>1.26.0</title>
+            <pubDate>Fri, 27 Nov 2026 11:38:11 +0100</pubDate>
+            <sparkle:version>832</sparkle:version>
+            <sparkle:shortVersionString>1.26.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## New
+- Need more time? When your trial ends, you can get 3 more days once, right from the trial window.
+- In the last days of your trial, Butterfly reminds you once with a small note at the bottom of the screen, and only when you are not moving windows or on a call.
+
+## Improved
+- The launch price of $4.99 lasts until Monday, November 30. After that Butterfly costs from $7.99, still a one-time purchase with no subscription. The license window now shows this, along with how many hours Butterfly has kept your windows on the strip.
+- In the last 3 days of your trial, the Butterfly menu shows how many days are left with a Buy button. Before, it showed only on the last day.
+]]></description>
+            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.26.0/Butterfly-1.26.0.zip" length="5859003" type="application/octet-stream" sparkle:edSignature="uNwM1LYYfkNq8WodvyZNlZ+nmL8Vh8qS7vYeg93PqIjwFk9p1nzwV1kRlG01mBUf53U5Ebk00WbJuSsV6v3dAw=="/>
+        </item>
+        <item>
             <title>1.25.7</title>
             <pubDate>Thu, 26 Nov 2026 22:41:05 +0100</pubDate>
             <sparkle:version>820</sparkle:version>
@@ -30,23 +46,6 @@
 - Windows keep their order on the strip after you come back to a locked Mac. Before, waking the screens before unlocking could take some windows off the strip, and they came back in different places.
 ]]></description>
             <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.25.6/Butterfly-1.25.6.zip" length="5828778" type="application/octet-stream" sparkle:edSignature="+N7JfURqws9crTsDyrzcopp+cbfX+8fxiiDbk1zcaLxSzcendxsOyH6AgpA1B5VUvONTLdYCt7VCGf4DKbAfDA=="/>
-        </item>
-        <item>
-            <title>1.25.2</title>
-            <pubDate>Wed, 25 Nov 2026 22:06:15 +0100</pubDate>
-            <sparkle:version>795</sparkle:version>
-            <sparkle:shortVersionString>1.25.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Improved
-- Several swipes in a row are smoother. After each swipe Butterfly brought the next app forward on the same thread that draws the motion, so the next swipe could stutter.
-- The strip map no longer makes a move stutter when a window crosses the edge of the screen.
-- Opening or closing a window, or starting an app, while the strip is moving no longer interrupts the move. The strip picks up the change as soon as it stops.
-
-## Fixed
-- A window you bring back from the Dock now appears right where it stays. Before, it showed up at its old place for a moment and then moved.
-- A window that goes full screen on a second display keeps its place on the strip. Before, it could come back as a new window at half the width of the screen.
-]]></description>
-            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.25.2/Butterfly-1.25.2.zip" length="5799963" type="application/octet-stream" sparkle:edSignature="cEDVcy9c4QPm/PkgRSmHAskSeTvft1cOx+Qi5gNbHCfmlI1xEYdKGXDy+C46SAja66fywUUPDyWrT9JdQ3aYCw=="/>
         </item>
     </channel>
 </rss>
