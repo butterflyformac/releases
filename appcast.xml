@@ -3,6 +3,22 @@
     <channel>
         <title>Butterfly</title>
         <item>
+            <title>1.26.1</title>
+            <pubDate>Sat, 28 Nov 2026 15:19:41 +0100</pubDate>
+            <sparkle:version>835</sparkle:version>
+            <sparkle:shortVersionString>1.26.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Improved
+- The gesture steps of the tour now say what to do: press Unlock gestures to let Butterfly read the trackpad, and use Control + Option with ← or → if you have no trackpad.
+- Asking for Accessibility now shows a single macOS prompt instead of the prompt and System Settings at the same time. The permissions window also says which switch to turn on.
+- The Butterfly menu shows how many trial days are left from the first day, and Settings shows the price next to it: $4.99 until November 30, then $7.99 for one Mac.
+
+## Fixed
+- If you skipped the tour before allowing Accessibility, Butterfly now shows how to move between windows as soon as tiling starts.
+]]></description>
+            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.26.1/Butterfly-1.26.1.zip" length="5863601" type="application/octet-stream" sparkle:edSignature="5YDT2roWxN2rDojOb100SH+deq1ZH3lA1vn8xq99VfYRxE25/Daov2fl6QFdcFJc8nBT7zBW0ARquYydts9eBA=="/>
+        </item>
+        <item>
             <title>1.26.0</title>
             <pubDate>Fri, 27 Nov 2026 11:38:11 +0100</pubDate>
             <sparkle:version>832</sparkle:version>
@@ -28,24 +44,6 @@
 - A window that can't get narrower, like WhatsApp, no longer pushes its neighbour off the screen. When two windows share a small screen half and half and one of them needs more room, the other one gives up the difference, so both stay fully visible and clicking between them no longer scrolls the strip. Before, the neighbour next to a second monitor could disappear completely.
 ]]></description>
             <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.25.7/Butterfly-1.25.7.zip" length="5831079" type="application/octet-stream" sparkle:edSignature="053kMsoEpJNOnl1L5CI+c9Cob170n/vqnEz81fS4+1rWneNbWs/hkRtfRso57hXrDh98blSdijIohWgVMA2uDA=="/>
-        </item>
-        <item>
-            <title>1.25.6</title>
-            <pubDate>Thu, 26 Nov 2026 15:05:34 +0100</pubDate>
-            <sparkle:version>815</sparkle:version>
-            <sparkle:shortVersionString>1.25.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Improved
-- Moves in the Butterfly theme are smoother. The strip map faded in as a separate window at the start of a move, which could make the screen wait for a moment. Now it fades in without that wait.
-- Butterfly is ready right away after you unlock your Mac or wake the screens. It looks for your windows once instead of several times, and an app that is still waking up no longer holds it up.
-- Opening a new app while the strip is moving no longer makes the move stutter.
-- Overview opens without a hitch. App icons and window labels are ready before you open it.
-- In the Strafe motion the glass appears faster when the strip starts moving.
-
-## Fixed
-- Windows keep their order on the strip after you come back to a locked Mac. Before, waking the screens before unlocking could take some windows off the strip, and they came back in different places.
-]]></description>
-            <enclosure url="https://github.com/butterflyformac/releases/releases/download/v1.25.6/Butterfly-1.25.6.zip" length="5828778" type="application/octet-stream" sparkle:edSignature="+N7JfURqws9crTsDyrzcopp+cbfX+8fxiiDbk1zcaLxSzcendxsOyH6AgpA1B5VUvONTLdYCt7VCGf4DKbAfDA=="/>
         </item>
     </channel>
 </rss>
